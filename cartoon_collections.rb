@@ -23,5 +23,4 @@ def find_the_cheese(strings)
   strings.find do |string|
     cheese_types.include?(string)
   end
-  
 end
